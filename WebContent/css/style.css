@@ -1,0 +1,39 @@
+* {margin: 0; padding: 0; font-size: 12px; font-family: "Arial";}
+body {background: #4A5155;}
+
+@font-face {
+    font-family: "VolkswagenSerialLight";
+    font-style: normal;
+    font-weight: normal;
+    src: url("http://s.glbimg.com/es/ca/current/i/font/volkswagenserial-light.eot?#iefix") format("embedded-opentype"), url("http://s.glbimg.com/es/ca/current/i/font/volkswagenserial-light.woff") format("woff"), url("http://s.glbimg.com/es/ca/current/i/font/volkswagenserial-light.ttf") format("truetype");
+}
+
+#main{margin: 0 auto; width: 1000px;}
+
+#apycom{display: none;}
+div#menu {margin: 5px auto;}
+
+div#content{float: left; background: #fff; width: 100%;}
+div#content h2{float: left; clear: left; width: 98%; font-size: 24px; font-weight: normal; padding: 1%; font-family: "VolkswagenSerialLight"}
+
+button{float: left; border: solid #4a5155 1px; background: #fff; box-shadow: 0px 0px 10px #888; padding: 4px 8px; font-size: 14px; cursor: pointer;}
+button:hover, button:focus{box-shadow: 0px 0px 10px #4a5155;}
+button.send{background: url("../images/send_email.png") no-repeat 8px; padding: 4px 8px 4px 30px;}
+button.save{background: url("../images/save.png") no-repeat 8px; padding: 4px 8px 4px 30px;}
+
+form{float: left;}
+form fieldset{border: 0 none; padding: 0 10px 10px;}
+form fieldset p{float: left; width: 50%; margin: 8px 0;}
+form fieldset p.full{width: 100%;}
+form fieldset label{float: left; padding: 4px; width: 150px;}
+form fieldset input, form fieldset textarea, form fieldset select{float: left; border: solid #4a5155 1px; padding: 2px; width: 300px;	box-shadow: 0px 0px 1px #888; background: #fff;}
+form fieldset .full input, form fieldset .full textarea, form fieldset .full select{width: 790px;}
+form fieldset input:focus, form fieldset textarea:focus{box-shadow: 0px 0px 3px #4a5155;}
+
+table{float: left; padding: 0 10px 10px;}
+table thead{background: #ededed;}
+table thead tr th, table tbody tr td{text-align: left; padding: 5px; border-bottom: solid #ededed 1px;}
+table tbody tr.odd{background: #fafafa;}
+table tbody tr td a{float: left; text-indent: -9999px; font-size: 0px; width: 16px; height: 16px; text-decoration: none; margin: 0 4px;}
+table tbody tr td a.edit{background: url("../images/edit.png") no-repeat;}
+table tbody tr td a.delete{background: url("../images/delete.png") no-repeat;}
